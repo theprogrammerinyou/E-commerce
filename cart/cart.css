@@ -1,0 +1,26 @@
+.main-section {
+    margin: 1rem auto;
+}
+
+.price-card {
+    height: 25rem;
+    width: 30rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-card>h3 {
+    text-align: center;
+}
+
+.price {
+    justify-content: space-between;
+}
+
+.placeOrder-btn {
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+}
