@@ -1,0 +1,28 @@
+.card {
+    width: 18rem;
+    height: max-content;
+}
+
+.cart-btn {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img {
+    width: 16rem;
+    height: 15rem;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.title-section {
+    text-align: center;
+    border-bottom: 1px solid var(--black);
+    margin: 1rem;
+}
+
