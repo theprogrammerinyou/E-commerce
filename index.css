@@ -5,6 +5,10 @@
     gap: 10px;
 }
 
+.icon-img {
+    margin-right: 3rem;
+}
+
 .input {
     padding: 10px;
     width: 20rem;

@@ -1,0 +1,14 @@
+.filters-container {
+  margin: auto 2rem;
+  width: 300px;
+}
+
+.filter-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-input {
+  width: 250px;
+}
