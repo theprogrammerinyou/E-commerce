@@ -48,16 +48,16 @@
       <div class="filters-container">
         <div class="filter-heading basic-margin-padding">
           <h3>Filters</h3>
-          <a>Clear</a>
+          <button class="clear-btn">Clear</button>
         </div>
         <div class="price-filter basic-margin-padding">
           <h3>Price</h3>
           <div class="slider">
-            <input type="range" min="0" max="10000" step="2500" list="price-range" />
-            <datalist id="price-range">
-              <option value="0" label="0"></option>
+            <input class="slider-input" type="range" min="0" max="10000" step="2500" list="price-range" />
+            <datalist class="slider-list" id="price-range">
+              <option value="0" label="0" class="show-0"></option>
               <option value="2500"></option>
-              <option value="5000" label="5K" class="show"></option>
+              <option value="5000" label="5K"></option>
               <option value="7500"></option>
               <option value="10000" label="10K"></option>
             </datalist>
