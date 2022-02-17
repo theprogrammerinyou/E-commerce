@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products</title>
+  <link href="https://shivansh-ui.netlify.app/css/base.css" rel="stylesheet" />
+  <link href="https://shivansh-ui.netlify.app/navbar/navbar.css" rel="stylesheet" />
+  <link href="https://shivansh-ui.netlify.app/components/card/card.css" rel="stylesheet" />
+  <link href="/wishlist/wishlist.css" rel="stylesheet" />
+  <link href="/css/base.css" rel="stylesheet" />
+  <link href="products.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <div id="left-nav">
+        <a href="../../index.html">
+          <h3>Ecommerce Shivansh</h3>
+        </a>
+      </div>
+      <div id="center-nav">
+        <input class="input" placeholder="Search" type="text" aria-label="search-input" />
+      </div>
+      <div id="right-nav">
+        <ul class="navbar">
+          <li>
+            <a href="../../index.html">
+              <button class="login-btn">Login</button>
+            </a>
+          </li>
+          <a href="/wishlist/wishlist.html" class="icon-badge">
+            <img class="icon-img md" src="/assets/heart-regular.svg" alt="profile-img" />
+          </a>
+          <a href="/cart/cart.html" class="icon-badge">
+            <img class="md" src="/assets/cart-arrow-down-solid.svg" alt="cart-icon" />
+            <span>Cart</span>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="container-section">
+    <aside>
+      <div class="filters-container">
+        <div class="filter-heading basic-margin-padding">
+          <h3>Filters</h3>
+          <button class="clear-btn">Clear</button>
+        </div>
+        <div class="price-filter basic-margin-padding">
+          <h3>Price</h3>
+          <div class="slider">
+            <input class="slider-input" type="range" min="0" max="10000" step="2500" list="price-range" />
+            <datalist class="slider-list" id="price-range">
+              <option value="0" label="0" class="show-0"></option>
+              <option value="2500"></option>
+              <option value="5000" label="5K"></option>
+              <option value="7500"></option>
+              <option value="10000" label="10K"></option>
+            </datalist>
+          </div>
+        </div>
+        <div class="category-filter basic-margin-padding">
+          <h3>Category</h3>
+          <input type="checkbox" id="menClothing" name="menClothing" value="Men Clothing" />
+          <label for="menClothing"> Men Clothing </label><br />
+          <input type="checkbox" id="menClothing" name="menClothing" value="Men Clothing" />
+          <label for="menClothing"> Men Clothing </label><br />
+        </div>
+        <div class="rating-filter basic-margin-padding">
+          <h3>Rating</h3>
+          <input type="radio" name="ratings" id="rating-4" />
+          <label for="rating-4" class="txt-reg txt-semibold">
+            4 Stars & above </label><br />
+          <input type="radio" name="ratings" id="rating-3" />
+          <label for="rating-3" class="txt-reg txt-semibold">
+            3 Stars & above </label><br />
+          <input type="radio" name="ratings" id="rating-2" />
+          <label for="rating-2" class="txt-reg txt-semibold">
+            2 Stars & above </label><br />
+          <article class="mx-1 py-sm">
+            <input type="radio" name="ratings" id="rating-1" />
+            <label for="rating-1" class="txt-reg txt-semibold">
+              1 Star & above
+            </label><br />
+        </div>
+        <div class="sort-filter basic-margin-padding">
+          <h3>Sort By</h3>
+          <input type="radio" name="sort-high" id="sort-high" />
+          <label for="sort-high" class="txt-reg txt-semibold">
+            High to Low
+          </label><br />
+          <input type="radio" name="sort-low" id="sort-low" />
+          <label for="sort-low" class="txt-reg txt-semibold">
+            Low to High
+          </label><br />
+        </div>
+      </div>
+    </aside>
+    <div class="main-div">
+      <h3 class="title-section">Products</h3>
+      <main class="grid-section">
+        <div class="card basic-margin-padding flex-col">
+          <img src="/assets/img-2.png" class="img" alt="book-1" />
+          <div class="card-content flex-col">
+            <p>How To Be a Good Creature</p>
+            <h4>Rs. 2000</h4>
+          </div>
+          <button class="cart-btn sm-margin-padding">Add to Cart</button>
+        </div>
+        <div class="card basic-margin-padding flex-col">
+          <img src="/assets/img-2.png" class="img" alt="book-1" />
+          <div class="badge"></div>
+          <div class="card-content flex-col">
+            <p>How To Be a Good Creature</p>
+            <h4>Rs. 2000</h4>
+          </div>
+          <button class="cart-btn sm-margin-padding">Add to Cart</button>
+        </div>
+        <div class="card basic-margin-padding flex-col">
+          <img src="/assets/img-2.png" class="img" alt="book-1" />
+          <div class="badge"></div>
+          <div class="card-content flex-col">
+            <p>How To Be a Good Creature</p>
+            <h4>Rs. 2000</h4>
+          </div>
+          <button class="cart-btn sm-margin-padding">Add to Cart</button>
+        </div>
+        <div class="card basic-margin-padding flex-col">
+          <img src="/assets/img-2.png" class="img" alt="book-1" />
+          <div class="badge"></div>
+          <div class="card-content flex-col">
+            <p>How To Be a Good Creature</p>
+            <h4>Rs. 2000</h4>
+          </div>
+          <button class="cart-btn sm-margin-padding">Add to Cart</button>
+        </div>
+        <div class="card basic-margin-padding flex-col">
+          <img src="/assets/img-2.png" class="img" alt="book-1" />
+          <div class="badge"></div>
+          <div class="card-content flex-col">
+            <p>How To Be a Good Creature</p>
+            <h4>Rs. 2000</h4>
+          </div>
+          <button class="cart-btn sm-margin-padding">Add to Cart</button>
+        </div>
+        <div class="card basic-margin-padding flex-col">
+          <img src="/assets/img-2.png" class="img" alt="book-1" />
+          <div class="card-content flex-col">
+            <p>How To Be a Good Creature</p>
+            <h4>Rs. 2000</h4>
+          </div>
+          <button class="cart-btn sm-margin-padding">Add to Cart</button>
+        </div>
+        <div class="card basic-margin-padding flex-col">
+          <img src="/assets/img-2.png" class="img" alt="book-1" />
+          <div class="badge"></div>
+
+          <div class="card-content flex-col">
+            <p>How To Be a Good Creature</p>
+            <h4>Rs. 2000</h4>
+          </div>
+          <button class="cart-btn sm-margin-padding">Add to Cart</button>
+        </div>
+        <div class="card basic-margin-padding flex-col">
+          <img src="/assets/img-2.png" class="img" alt="book-1" />
+          <div class="card-content flex-col">
+            <p>How To Be a Good Creature</p>
+            <h4>Rs. 2000</h4>
+          </div>
+          <button class="cart-btn sm-margin-padding">Add to Cart</button>
+        </div>
+        <div class="card basic-margin-padding flex-col">
+          <img src="/assets/img-2.png" class="img" alt="book-1" />
+          <div class="badge"></div>
+          <div class="card-content flex-col">
+            <p>How To Be a Good Creature</p>
+            <h4>Rs. 2000</h4>
+          </div>
+          <button class="cart-btn sm-margin-padding">Add to Cart</button>
+        </div>
+      </main>
+    </div>
+  </section>
+</body>
+
+</html>
