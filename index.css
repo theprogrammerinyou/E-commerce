@@ -5,6 +5,10 @@
     gap: 10px;
 }
 
+.icon-img {
+    margin-right: 3rem;
+}
+
 .input {
     padding: 10px;
     width: 20rem;
@@ -18,4 +22,8 @@
     background-color: var(--lynx-gray);
     border-radius: 10px;
     cursor: pointer;
+}
+
+.notif-icon-img {
+    background-color: white;
 }
