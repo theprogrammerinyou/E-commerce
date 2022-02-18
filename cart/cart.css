@@ -17,7 +17,7 @@
   flex-direction: column;
 }
 
-.price-card > h3 {
+.price-card-title {
   text-align: center;
 }
 
