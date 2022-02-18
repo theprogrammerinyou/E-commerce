@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://shivansh-ui.netlify.app/css/base.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://shivansh-ui.netlify.app/components/card/card.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://shivansh-ui.netlify.app/components/input/input.css"
+      rel="stylesheet"
+    />
+    <link href="/login/login.css" rel="stylesheet" />
+    <link href="/css/base.css" rel="stylesheet" />
+    <title>Login</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="navbar">
+          <div id="left-nav">
+            <a href="../../index.html">
+              <h3>Ecommerce Shivansh</h3>
+            </a>
+          </div>
+          <div id="center-nav">
+            <input
+              class="input"
+              placeholder="Search"
+              type="text"
+              aria-label="search-input"
+            />
+          </div>
+          <!-- <div id="right-nav">
+            <ul class="navbar">
+              <li>
+                <a href="/login/login.html">
+                  <button class="login-btn">Login</button>
+                </a>
+              </li>
+              <a href="/wishlist/wishlist.html" class="icon-badge">
+                <img
+                  class="md"
+                  src="/assets/heart-solid.svg"
+                  alt="profile-img"
+                />
+              </a>
+              <a href="/cart/cart.html" class="icon-badge">
+                <img
+                  class="md"
+                  src="/assets/cart-arrow-down-solid.svg"
+                  alt="cart-icon"
+                />
+                <span>Cart</span>
+              </a>
+            </ul>
+          </div> -->
+        </div>
+      </nav>
+    </main>
+    <section class="main-section">
+      <div class="card basic-margin-padding">
+        <h3 class="title-section">Login</h3>
+        <div class="label-inputs">
+          <label for="email" class="inputLabel">Email address *</label>
+          <input
+            class="input"
+            id="email"
+            type="text"
+            placeholder="Enter email"
+          />
+        </div>
+        <div class="label-inputs">
+          <label for="username" class="inputLabel">Password *</label>
+          <input
+            class="input"
+            id="username"
+            type="text"
+            placeholder="***********"
+          />
+        </div>
+        <div class="label-inputs">
+          <div class="">
+            <input class="input" id="remember-me" type="checkbox" />
+            <label for="remember-me" class="inputLabel">Remember Me</label>
+          </div>
+          <div class="">
+            <a href="/index.html">Forgot Your Password ?</a>
+          </div>
+        </div>
+        <div>
+          <button>Login</button>
+        </div>
+        <div class="create-new-account">
+          <h3 class="labelInput">Create new account ></h3>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
