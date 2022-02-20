@@ -1,8 +1,21 @@
+.article {
+    margin-left: -10rem;
+    font-size: 2rem;
+}
+
+.button {
+    margin: 2rem;
+}
+
 .icon-badge {
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.icon-img {
+    margin-right: 3rem;
 }
 
 .input {
@@ -18,4 +31,27 @@
     background-color: var(--lynx-gray);
     border-radius: 10px;
     cursor: pointer;
+}
+
+.left-body {
+    width: 100%;
+    height: 100%;
+}
+
+.left-img {
+    margin-left: 10rem;
+    margin-top: 2rem;
+    width: 50%;
+}
+
+.right-body {
+    width: 50%;
+}
+
+.main-container {
+    align-items: center;
+}
+
+.notif-icon-img {
+    background-color: white;
 }

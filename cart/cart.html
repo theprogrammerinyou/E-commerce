@@ -9,7 +9,7 @@
     <link href="https://shivansh-ui.netlify.app/css/base.css" rel="stylesheet" />
     <link href="../css/base.css" rel="stylesheet">
     <link href="cart.css" rel="stylesheet">
-    <title>Cart</title>
+    <title>NatureKart - Cart</title>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
         <div class="navbar">
           <div id="left-nav">
             <a href="../../index.html">
-              <h3>Ecommerce Shivansh</h3>
+              <h3>NatureKart</h3>
             </a>
           </div>
           <div id="center-nav">
@@ -33,24 +33,24 @@
             <ul class="navbar">
               <li>
                 <a href="../../index.html">
-                  <button class="login-btn">Login</button>
+                  <button class="login-btn">Logout</button>
                 </a>
               </li>
-              <div class="icon-badge">
+              <a href="/wishlist/wishlist.html" class="icon-badge">
                 <img
-                  class="md"
-                  src="/assets/heart-solid.svg"
+                  class="icon-img md"
+                  src="/assets/heart-regular.svg"
                   alt="profile-img"
                 />
-              </div>
-              <div class="icon-badge">
+              </a>
+              <a href="/cart/cart.html" class="icon-badge">
                 <img
                   class="md"
                   src="/assets/cart-arrow-down-solid.svg"
                   alt="cart-icon"
                 />
                 <span>Cart</span>
-              </div>
+              </a>
             </ul>
           </div>
         </div>
@@ -66,7 +66,6 @@
                             <p>A Sad Country ALMANAC</h2>
                                 <p>By Aldo Leopold</p>
                                 <h2>Rs. 3000 <strike> Rs. 5000</strike></h2>
-                                <p>Flat 50% Off</p>
                         </div>
                         <div class="card-actions">
                             <button class="button">Remove From Cart</button>
@@ -77,7 +76,7 @@
             </div>
             <div class="flex-col">
                 <div class="card price-card">
-                    <h3>Price Details</h3>
+                    <h3 class="price-card-title">Price Details</h3>
                     <br />
                     <div class="price-details">
                         <div class="price flex">

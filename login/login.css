@@ -1,8 +1,36 @@
+.btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+}
+
 .card {
     background-color: var(--white);
     width: 400px;
     height: 400px;
     box-shadow: 0 0 20px rgba(0,0,0, 0.5);
+}
+
+.card-captions {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.create-new-account {
+    margin-top: -10px;
+    text-align: center;
+}
+
+.input-checkbox {
+    margin-right: 10px;
+}
+
+.inputLabel {
+    color: var(--black);
+    font-size: 15px;
+    width: 100%;
 }
 
 .title-section {
@@ -13,6 +41,9 @@
     margin: 1rem auto;
 }
 
-.inputLabel {
-    color: var(--black);
+.underline-link {
+    margin-left: -10rem;
+  text-decoration: underline;
+  color: var(--primary-color);
+  font-size: 1rem;
 }
