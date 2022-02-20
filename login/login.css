@@ -19,7 +19,6 @@
 }
 
 .create-new-account {
-    margin-top: -10px;
     text-align: center;
 }
 
@@ -27,7 +26,7 @@
     margin-right: 10px;
 }
 
-.inputLabel {
+.label {
     color: var(--black);
     font-size: 15px;
     width: 100%;

@@ -1,3 +1,7 @@
+.card-actions {
+  margin-top: -1.8rem;
+}
+
 .price-card {
   height: 30rem;
   width: 30rem;
@@ -9,6 +13,7 @@
 
 .price-card-title {
   text-align: center;
+  margin: 1rem;
 }
 
 .price {
@@ -20,4 +25,15 @@
   background-color: var(--primary-color);
   border: none;
   cursor: pointer;
+  width: 90%;
+}
+
+.place-order {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  width: 100%;
+}
+
+.section {
+  margin-left: 10rem;
 }
