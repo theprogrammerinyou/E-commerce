@@ -1,3 +1,11 @@
+.article {
+    font-size: 1.5rem;
+}
+
+.button {
+    margin: 2rem;
+}
+
 .icon-badge {
     cursor: pointer;
     display: flex;
@@ -22,6 +30,29 @@
     background-color: var(--lynx-gray);
     border-radius: 10px;
     cursor: pointer;
+}
+
+.left-body {
+    width: 50%;
+    height: 100%;
+}
+
+.left-img {
+    margin-left: 10rem;
+    margin-top: 2rem;
+    width: 50%;
+}
+
+.right-body {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.main-container {
+    align-items: center;
 }
 
 .notif-icon-img {

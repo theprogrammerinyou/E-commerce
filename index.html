@@ -9,56 +9,79 @@
       rel="stylesheet"
     />
     <link
-      href="https://shivansh-ui.netlify.app/navbar/navbar.css"
+      href="https://shivansh-ui.netlify.app/components/button/button.css"
       rel="stylesheet"
     />
     <link href="index.css" rel="stylesheet" />
+    <link href="/css/utilities.css" rel="stylesheet" />
     <title>NatureKart - Home</title>
   </head>
   <body>
-    <main>
-      <nav>
-        <div class="navbar">
-          <div id="left-nav">
-            <a href="../../index.html">
-              <h3>NatureKart</h3>
+    <nav>
+      <div class="navbar">
+        <div id="left-nav">
+          <a href="../../index.html">
+            <h3>NatureKart</h3>
+          </a>
+        </div>
+        <div id="center-nav">
+          <input
+            class="input"
+            placeholder="Search"
+            type="text"
+            aria-label="search-input"
+          />
+        </div>
+        <div id="right-nav">
+          <ul class="navbar">
+            <li>
+              <a href="/login/login.html">
+                <button class="login-btn">Login</button>
+              </a>
+            </li>
+            <a href="/wishlist/wishlist.html" class="icon-badge">
+              <img
+                class="icon-img md"
+                src="/assets/heart-regular.svg"
+                alt="profile-img"
+              />
             </a>
+            <a href="/cart/cart.html" class="icon-badge">
+              <img
+                class="md"
+                src="/assets/cart-arrow-down-solid.svg"
+                alt="cart-icon"
+              />
+              <span>Cart</span>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <main>
+        <div class="main-container flex">
+          <div class="left-body">
+            <figure>
+              <img class="left-img" src="/assets/img-2.png" alt="main-img" />
+            </figure>
           </div>
-          <div id="center-nav">
-            <input
-              class="input"
-              placeholder="Search"
-              type="text"
-              aria-label="search-input"
-            />
-          </div>
-          <div id="right-nav">
-            <ul class="navbar">
-              <li>
-                <a href="../../index.html">
-                  <button class="login-btn">Logout</button>
-                </a>
-              </li>
-              <a href="/wishlist/wishlist.html" class="icon-badge">
-                <img
-                  class="icon-img md"
-                  src="/assets/heart-regular.svg"
-                  alt="profile-img"
-                />
-              </a>
-              <a href="/cart/cart.html" class="icon-badge">
-                <img
-                  class="md"
-                  src="/assets/cart-arrow-down-solid.svg"
-                  alt="cart-icon"
-                />
-                <span>Cart</span>
-              </a>
-            </ul>
+          <div class="right-body">
+            <p class="article">
+              The only ecommerce place where you can shop and read all about the
+              mother <span class="bold">nature</span>.
+            </p>
+            <div class="action-btn">
+              <button class="button btn-primary">
+                <a href="/products/products.html">Explore ALL Products</a>
+              </button>
+              <button class="button btn-link">
+                <a href="/products/products.html">Read Books</a>
+              </button>
+            </div>
           </div>
         </div>
-      </nav>
-    </main>
-    <a href="/products/products.html">Go To Products</a>
+      </main>
+    </section>
   </body>
 </html>
