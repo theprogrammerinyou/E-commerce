@@ -8,8 +8,8 @@
 
 .card {
     background-color: var(--white);
-    width: 400px;
-    height: 400px;
+    width: 25rem;
+    height: 25rem;
     box-shadow: 0 0 20px rgba(0,0,0, 0.5);
 }
 
